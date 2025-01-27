@@ -1,0 +1,10 @@
+n= int(input("enter a number:"))
+t = n
+rev = 0
+while n !=0:
+ r = n % 10
+ rev = rev * 10 + r
+ print("value of rev is",rev)
+ n = n //10
+ print("value of n is",n)
+ print(" reverse of number" , t, "is:", rev)
